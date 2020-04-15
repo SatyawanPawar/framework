@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="SmokeSuite">
+	<parameter name="BROWSER" value="Chrome"></parameter>
+	<parameter name="URL" value="http://newtours.demoaut.com/"></parameter>
+	<test thread-count="3" name="TestCases">
+		<classes>
+			<class name="framework.testcases.HomePageTests" />
+		</classes>
+	</test> <!-- TestCases -->
+</suite> <!-- SmokeSuite -->

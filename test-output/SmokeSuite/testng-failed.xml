@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]">
+  <parameter name="BROWSER" value="Chrome"/>
+  <parameter name="URL" value="http://newtours.demoaut.com/"/>
+  <test thread-count="3" name="TestCases(failed)">
+    <classes>
+      <class name="framework.testcases.HomePageTests">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testFirst"/>
+        </methods>
+      </class> <!-- framework.testcases.HomePageTests -->
+    </classes>
+  </test> <!-- TestCases(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

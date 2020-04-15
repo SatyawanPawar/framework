@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successul]]>
+    </line>
+    <line>
+      <![CDATA[Verification Successul]]>
+    </line>
+  </reporter-output>
+  <suite name="SmokeSuite" duration-ms="73169" started-at="2020-04-15T12:04:40Z" finished-at="2020-04-15T12:05:53Z">
+    <groups>
+    </groups>
+    <test name="TestCases" duration-ms="73169" started-at="2020-04-15T12:04:40Z" finished-at="2020-04-15T12:05:53Z">
+      <class name="framework.testcases.HomePageTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:framework.testcases.HomePageTests@60611244]" name="setup" is-config="true" duration-ms="11904" started-at="2020-04-15T12:04:40Z" finished-at="2020-04-15T12:04:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:framework.testcases.HomePageTests@60611244]" name="testLogin" duration-ms="60430" started-at="2020-04-15T12:04:52Z" finished-at="2020-04-15T12:05:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successul]]>
+            </line>
+            <line>
+              <![CDATA[Verification Successul]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:framework.testcases.HomePageTests@60611244]" name="tearDown" is-config="true" duration-ms="807" started-at="2020-04-15T12:05:53Z" finished-at="2020-04-15T12:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.testcases.HomePageTests -->
+    </test> <!-- TestCases -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>
